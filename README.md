@@ -1,6 +1,6 @@
 Запускаем в консоли кломанду:
 
-ssh root@89.111.172.51 пароль: OxdoLo6L0g8lkIfw
+ssh root@79.174.86.187 пароль: 8O2E0NYTgCEfrAkh
 
 
 Заводим нового пользователя:
@@ -127,7 +127,7 @@ python manage.py collectstatic
 python manage.py runserver 0.0.0.0:8000
 
 
-запускаем сервер на адресе: http://89.111.172.51:8000/
+запускаем сервер на адресе: http://79.174.86.187:8000/
 
 
 Открываем:
@@ -190,7 +190,7 @@ sudo nano /etc/nginx/sites-available/diplom
 
 server {
     listen 80;
-    server_name 89.111.172.51;
+    server_name 79.174.86.187;
 
     location /static/ {
         root /home/alex/Diplom/backend/APIProject/APIProject;
@@ -237,7 +237,7 @@ sudo ufw allow 'Nginx Full'
 
 Запускаем сервер на хосте:
 
-http://89.111.172.51/
+http://79.174.86.187/
 
 Структура проекта: 
 
